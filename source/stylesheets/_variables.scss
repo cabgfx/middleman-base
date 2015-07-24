@@ -1,28 +1,26 @@
 /* Override default Bootstrap variables here  */
 
-$icon-font-path: '/fonts/';
+$icon-font-path:          '/fonts/';
 
 //== Colors
-// $gray-darker:             ;
-// $gray-dark:               ;
-// $gray:                    ;
-// $gray-light:              ;
-// $gray-lighter:            ;
-// $gray-block:              ;
 
-// $blue-brand:              ;
-// $blue-link:               ;
-// $blue-promotion-btn:      ;
+$gray-base:               ; // Bootstrap generates remaining $gray-* variants from this.
 
-// $brand-primary:           ;
-// $brand-success:           ;
-// $brand-info:              ;
-// $brand-warning:           ;
-// $brand-danger:            ;
+$brand-primary:           ;
+$brand-success:           ;
+$brand-info:              ;
+$brand-warning:           ;
+$brand-danger:            ;
 
-// $body-bg:                 ;
-// $text-color:              ;
+$body-bg:                 ;
+
+$text-color:              ;
+$link-color:              ;
 
 //== Typography
-// $font-family-sans-serif:  Helvetica, Arial, sans-serif;
-// $font-family-serif:       Georgia, "Times New Roman", Times, serif;
+
+$font-family-sans-serif:  ;
+$font-family-serif:       ;
+$font-family-monospace:   ;
+
+$font-size-base:          ;
