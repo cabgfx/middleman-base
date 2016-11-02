@@ -26,3 +26,9 @@
     -ms-hyphens: auto;
         hyphens: auto;
 }
+
+@mixin hover {
+  &:hover, &:active, &:focus {
+    @content;
+  }
+}
