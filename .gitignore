@@ -1,7 +1,5 @@
-/.bundle
-/build
-/.sass-cache
-/.cache
+.bundle
+.cache
 .DS_Store
-tmp/
-.rbenv-vars
+.sass-cache
+build/
