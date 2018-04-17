@@ -23,6 +23,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload, no_swf: true
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
