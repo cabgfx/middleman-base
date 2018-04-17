@@ -20,10 +20,10 @@
       <%= yield %>
 
     </div><!-- .container -->
+
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
+    <%= javascript_include_tag "base" %>
+
+    <%= yield_content :scripts %>
   </body>
-
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
-  <%= javascript_include_tag "base" %>
-
-  <%= yield_content :scripts %>
 </html>
