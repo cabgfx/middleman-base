@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    Middleman: http://middlemanapp.com
+    Middleman Bootstrap Template: https://github.com/mattolson/middleman-bootstrap-template
+    Middleman Bootstrap Template: https://github.com/cabgfx/middleman-base
+    Bootstrap: https://getbootstrap.com/
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Bootstrap, jQuery

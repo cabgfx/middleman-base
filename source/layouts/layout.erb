@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Middleman" %></title>
     <meta name="description" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <%= stylesheet_link_tag "base" %>
 
-    <%= javascript_include_tag "vendor/modernizr-2.8.3.min" %>
-    <%= javascript_include_tag "vendor/respond.min" %>
+    <%= javascript_include_tag 'modernizr-3.5.0.min' %>
   </head>
 
   <body class="<%= page_classes.gsub(/_/, '-') %>">
@@ -23,9 +22,7 @@
     </div><!-- .container -->
   </body>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
   <%= javascript_include_tag "base" %>
 
   <%= yield_content :scripts %>
